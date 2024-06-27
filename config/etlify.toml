@@ -1,0 +1,8 @@
+[settings]
+server = "localhost"
+port = 8080
+
+[source]
+nats = { address = "nats://localhost:4222" }
+kafka = { endpoint = "localhost:9092" }
+pgsql = { address = "postgres://user:password@localhost:5432/database_name" }
