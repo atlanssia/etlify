@@ -5,7 +5,7 @@ authors = ["Atlanssia <hi@atlanssia.com>"]
 edition = "2021"
 description = ""
 license = "MIT OR Apache-2.0"
-keywords = ["etl", "data transform"]
+keywords = ["etl", "data processing"]
 categories = ["data-processing", "data-pipeline"]
 
 
