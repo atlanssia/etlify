@@ -12,8 +12,12 @@ categories = ["data-processing", "data-pipeline"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+axum = "0.7.5"
 regex = "1.10.4"
 serde = "1.0.197"
 serde_derive = "1.0.197"
-tokio = { version = "1.38.1", features = ["full"] }
+sysinfo = "0.31.4"
+tokio = { version = "1.40.0", features = ["full"] }
 toml = "0.8.12"
+tracing = "0.1"
+tracing-subscriber = "0.3"
